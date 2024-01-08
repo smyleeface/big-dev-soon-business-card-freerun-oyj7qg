@@ -18,9 +18,30 @@ html {
   left: 0;
   right: 0;
   margin: 4%;
-  text-align: center;
+  padding: auto;
+  text-align: right;
   background-color: white;
   border-radius: 10px;
   min-height: 600px;
-  box-shadow: 5px 5px 5px #717171
+  box-shadow: 5px 5px 5px #717171;
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
+.container-left {
+  flex: 1 1 auto;
+  display: flex;
+  width: 20%;
+  padding: 10px;
+  height: 100%;
+  background-color: rgb(227, 158, 218);
+}
+
+.container-bottom {
+  padding: 10px;
+  height: 100%;
+  width: 100%;
+  align-self: flex-end;
+  color: rgb(169, 9, 150);
 }
