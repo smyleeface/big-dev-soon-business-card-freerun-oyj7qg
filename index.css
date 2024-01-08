@@ -1,9 +1,9 @@
-html {
+body {
   --s: 20px; /* size of the lines */
   --g: 15px; /* gap between lines */
  
- --c1: #fab3bf;
- --c2: #d476e2;
+ --c1: #DFD3C3;
+ --c2: #F8EDE3;
   
   background:
     conic-gradient(at var(--s) calc(100% - var(--s)),#0000 270deg,var(--c1) 0) calc(var(--s) + var(--g)) 0,
@@ -19,29 +19,62 @@ html {
   right: 0;
   margin: 4%;
   padding: auto;
-  text-align: right;
   background-color: white;
   border-radius: 10px;
   min-height: 600px;
   box-shadow: 5px 5px 5px #717171;
   display: flex;
-  flex-flow: column;
   height: 100%;
+}
+
+.container-right {
+  flex: 3;
+  width: 20%;
+  padding: 10px;
 }
 
 .container-left {
-  flex: 1 1 auto;
+  flex: 1;
   display: flex;
-  width: 20%;
-  padding: 10px;
-  height: 100%;
-  background-color: rgb(227, 158, 218);
+  border-radius: 10px 0 0 10px;
+  flex-flow: column;
+  background-color: #85586F;
+  line-height: 1.8;
 }
 
-.container-bottom {
-  padding: 10px;
-  height: 100%;
+.container-left-top {
+  display: flex;
+  flex: 3;
+  padding: 10%;
   width: 100%;
+  color: #F8EDE3;
+}
+
+.contact-info {
   align-self: flex-end;
-  color: rgb(169, 9, 150);
+}
+
+.container-left-middle {
+  display: flex;
+  flex: 0;
+  padding: 10px;
+  width: 100%;
+  background-color: #efefef;
+}
+
+.container-left-bottom {
+  flex: 1;
+  padding: 10%;
+  width: 100%;
+  color: #F8EDE3;
+  align-self: bottom;
+}
+
+.social a {
+  color: #F8EDE3;
+  padding-right: 5%;
+}
+
+.social a:hover {
+  color: #D0B8A8;
 }
