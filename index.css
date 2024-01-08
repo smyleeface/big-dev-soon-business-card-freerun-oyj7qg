@@ -1,4 +1,4 @@
-html {
+body {
   --s: 20px; /* size of the lines */
   --g: 15px; /* gap between lines */
  
@@ -43,5 +43,13 @@ html {
   height: 100%;
   width: 100%;
   align-self: flex-end;
-  color: rgb(169, 9, 150);
+  color: #a760b1;
+}
+
+.social a {
+  color: #a760b1;
+}
+
+.social a:hover {
+  color: #c389cb;
 }
