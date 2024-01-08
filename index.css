@@ -12,3 +12,15 @@ html {
     #eeeadb;
   background-size: calc(2*(var(--s) + var(--g))) calc(2*(var(--s) + var(--g)));
 }
+
+.card-background {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 4%;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  min-height: 600px;
+  box-shadow: 5px 5px 5px #717171
+}
