@@ -1,19 +1,26 @@
-/* This is an example CSS file, feel free to remove/edit it anytime */
-.footer {
-  position: absolute;
+html {
+  --s: 20px; /* size of the lines */
+  --g: 15px; /* gap between lines */
+ 
+ --c1: #fab3bf;
+ --c2: #d476e2;
+  
+  background:
+    conic-gradient(at var(--s) calc(100% - var(--s)),#0000 270deg,var(--c1) 0) calc(var(--s) + var(--g)) 0,
+    linear-gradient(var(--c2) var(--s),#0000 0) 0 var(--g),
+    conic-gradient(at var(--s) calc(100% - var(--s)),#0000 90deg,var(--c2) 0 180deg, var(--c1) 0),
+    #eeeadb;
+  background-size: calc(2*(var(--s) + var(--g))) calc(2*(var(--s) + var(--g)));
+}
+
+.card-background {
   bottom: 0;
   left: 0;
   right: 0;
-  padding: 10px;
+  margin: 4%;
   text-align: center;
-}
-
-.footer a {
-  font-size: 14px;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.footer span {
-  font-size: 14px;
+  background-color: white;
+  border-radius: 10px;
+  min-height: 600px;
+  box-shadow: 5px 5px 5px #717171
 }
