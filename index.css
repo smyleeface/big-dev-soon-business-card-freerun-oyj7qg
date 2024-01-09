@@ -148,6 +148,11 @@ body {
   border-radius: 0 10px 0 100px;
   position: absolute;
   left: 92%;
+  padding: 5px;
+  text-align: right;
+}
+.decorative-element-1 a {
+  color: #E96479;
 }
 .decorative-element-2 {
   width: 50px;
@@ -206,11 +211,14 @@ body {
   .container-user-data {
     width: 100%;
   }
+  .decorative-element-1 {
+    background-color: transparent;
+    left: 90%;
+  }
   .decorative-element-2 {
     width: 30px;
     height: 30px;
     display: block;
-    background-color: #D0B8A8;
     position: absolute;
     left: 180px;
     top: 180px;
@@ -221,15 +229,15 @@ body {
     width: 25px;
     height: 25px;
     display: block;
-    background-color: #F8EDE3;
     position: absolute;
     left: 77px;
     top: 5%;
     z-index: 300;
   }
-  .decorative-element-1,
   .decorative-element-4,
   .decorative-element-5 {
     display: none;
   }
 }
+
+
