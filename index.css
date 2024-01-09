@@ -31,6 +31,7 @@ body {
   flex: 3;
   width: 20%;
   padding: 10px;
+  position: relative;
 }
 
 .container-left {
@@ -77,4 +78,10 @@ body {
 
 .social a:hover {
   color: #D0B8A8;
+}
+
+.container-user-image {
+  position: absolute;
+  left: -5%;
+  top: 20px;
 }
