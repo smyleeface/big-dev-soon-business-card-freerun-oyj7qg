@@ -17,7 +17,7 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  margin: 4%;
+  margin: 4% auto;
   padding: auto;
   background-color: white;
   border-radius: 10px;
@@ -25,6 +25,7 @@ body {
   box-shadow: 5px 5px 5px #717171;
   display: flex;
   height: 100%;
+  max-width: 1200px;
 }
 
 .container-right {
@@ -41,6 +42,7 @@ body {
   flex-flow: column;
   background-color: #85586F;
   line-height: 1.8;
+  min-width: 290px;
 }
 
 .container-left-top {
@@ -81,7 +83,68 @@ body {
 }
 
 .container-user-image {
+  position: relative;
+  float: left;
   position: absolute;
   left: -5%;
   top: 20px;
+}
+
+.container-user-data {
+  position: relative;
+  float: right;
+  width: 68%;
+}
+
+.user-name {
+  font-size: 3em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  line-height: 1em;
+  margin-top: 3%;
+}
+
+.user-name span:first-child {
+  color: #85586F;
+  display: block;
+}
+
+.title {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 0;
+  line-height: 2em;
+}
+
+.about-user {
+  font-size: 1em;
+  margin-bottom: 0;
+}
+
+.skill-headline {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 0;
+  line-height: 2em;
+}
+
+.skills li {
+  font-size: 1em;
+  line-height: 2em;
+}
+
+@media screen and (max-width:1200px){
+  .container-user-image {
+    position: absolute;
+    left: -195px;
+    top: 20px;
+    max-width: 100px;
+  }
+  .container-user-image img {
+    max-width: 100px;
+    height: auto;
+  }
+  .container-user-data {
+    width: 100%;
+  }
 }
