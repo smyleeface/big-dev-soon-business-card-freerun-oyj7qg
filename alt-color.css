@@ -1,48 +1,48 @@
 body {
-   --c1: #7DB9B6;
-   --c2: #F5E9CF;
+   --c1: #DFD3C3;
+   --c2: #F8EDE3;
   }
   
   .container-left {
-    background-color: #4D455D;
+    background-color: #85586F;
   }
   
   .container-left-top {
-    color: #F5E9CF;
+    color: #F8EDE3;
   }
     
   .container-left-bottom {
-    color: #F5E9CF;
+    color: #F8EDE3;
   }
   
   .social a {
-    color: #F5E9CF;
+    color: #F8EDE3;
   }
   
   .social a:hover {
-    color: #E96479;
+    color: #D0B8A8;
   }
   
   .user-name span:first-child {
-    color: #4D455D;
+    color: #85586F;
   }
   
   .decorative-element-1 a {
     color: #D0B8A8;
   }
   .decorative-element-1 {
-    background-color: #4D455D;
+    background-color: #85586F;
   }
   .decorative-element-2 {
-    background-color: #E96479;
+    background-color: #D0B8A8;
   }
   .decorative-element-3 {
-    background-color: #F5E9CF;
+    background-color: #F8EDE3;
   }
   .decorative-element-4 {
-    background-color: #7DB9B6;
+    background-color: #DFD3C3;
   }
   .decorative-element-5 {
-    background-color: #4D455D;
+    background-color: #85586F;
   }
   
