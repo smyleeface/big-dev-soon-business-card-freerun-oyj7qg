@@ -73,12 +73,12 @@ body {
   padding: 10%;
   width: 100%;
   color: #F5E9CF;
-  align-self: bottom;
 }
 
 .social a {
   color: #F5E9CF;
   padding-right: 5%;
+  text-decoration: none;
 }
 
 .social a:hover {
