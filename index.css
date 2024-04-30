@@ -2,8 +2,8 @@ body {
   --s: 20px; /* size of the lines */
   --g: 15px; /* gap between lines */
  
-   --c1: #7DB9B6;
-   --c2: #F5E9CF;
+   --c1: rgba(125, 185, 182, 0.33);
+   --c2: rgba(245, 233, 207, 0.76);
   
   background:
     conic-gradient(at var(--s) calc(100% - var(--s)),#0000 270deg,var(--c1) 0) calc(var(--s) + var(--g)) 0,
