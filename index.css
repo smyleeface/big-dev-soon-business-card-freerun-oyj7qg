@@ -1,16 +1,5 @@
 body {
-  --s: 20px; /* size of the lines */
-  --g: 15px; /* gap between lines */
- 
-   --c1: rgba(125, 185, 182, 0.33);
-   --c2: rgba(245, 233, 207, 0.76);
-  
-  background:
-    conic-gradient(at var(--s) calc(100% - var(--s)),#0000 270deg,var(--c1) 0) calc(var(--s) + var(--g)) 0,
-    linear-gradient(var(--c2) var(--s),#0000 0) 0 var(--g),
-    conic-gradient(at var(--s) calc(100% - var(--s)),#0000 90deg,var(--c2) 0 180deg, var(--c1) 0),
-    #eeeadb;
-  background-size: calc(2*(var(--s) + var(--g))) calc(2*(var(--s) + var(--g)));
+  background-color: #323232;
 }
 
 .container-card-background {
@@ -35,7 +24,7 @@ body {
   width: 20%;
   padding: 10px;
   position: relative;
-  background-color: #e5e0de;
+  background-color: #8d8b8b;
 }
 
 .container-left {
@@ -197,6 +186,12 @@ body {
   z-index: 0;
 }
 
+.light-mode {
+  display: block;
+}
+.dark-mode {
+  display: none;
+}
 
 @media screen and (max-width:1200px){
   .container-user-image {
